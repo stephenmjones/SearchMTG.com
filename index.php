@@ -4,7 +4,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="description" content="Searchable database of Magic the Gathering cards, made as a learning excercise."/>
+    <meta name="description" content="Searchable database of Magic the Gathering cards, made as a learning exercise."/>
     <meta name="keywords" content="magic, magic tcg, magic cards, trading card game, trading cards, collectible card game, tcg, ccg"/>
     <title>SearchMTG.com - Searchable &quot;Magic: the Gathering&quot; card database.</title>
     <link type="text/css" href="style.css" rel="stylesheet"/>
@@ -901,7 +901,6 @@
     </div>
     <script type="text/javascript" src="scripts/js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="scripts/js/searchmtg.js"></script>
-    <script type="text/javascript" src="scripts/js/jquery.cookie.js"></script>
     <script type="text/javascript">
 		window.onload = setSizes;
     </script>

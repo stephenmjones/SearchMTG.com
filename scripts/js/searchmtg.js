@@ -62,9 +62,6 @@ function setSizes()
 	{
 		var top1Height = document.getElementById("top1").offsetHeight;
 		document.getElementById("topcontainerdiv").style.height = top1Height + "px";
-		if ($.cookie('20080521') != '1') {
-			alert("Welcome to SearchMTG.com!\n\nUnfortunatly, this website is no longer up to date with the current state of Magic: The Gathering, nor will it ever be.\n\nFeel free to poke around, but please understand that this was made as a learning excercise, and as such, I never intend to complete it to perfection.");
-			$.cookie('20080521', '1', { expires: 1 }); }
 	}
 //====================================================</Sets #topcontainerdiv height based on #top1>
 

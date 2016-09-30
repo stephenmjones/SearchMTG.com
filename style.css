@@ -1,8 +1,8 @@
 /*====================================================== Begin || CSS Reset */
 * {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
+	margin: 0;
+	padding: 0;
+	border: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ html {
 	background-color: #CCC;}
 
 body {
-   margin-top: 0px;
+   margin-top: 0;
    height: 100%;
    background-color: #CCCCCC;}
 /*====================================================== End   || Global CSS */
@@ -26,7 +26,7 @@ body {
 /*====================================================== Begin || DIV Styles */
 #headerdiv {
 	position: absolute;
-	top: 0px;
+	top: 0;
 	height: 60px;
 	width: 100%;
 	background-color: #6699cc;
@@ -68,14 +68,14 @@ body {
 	height: 428px;
 	width: 100%;
 	z-index: 4;
-	border: 0px solid purple;}
+	border: 0 solid purple;}
 	
 #bottomcontainerdiv {
 	position: relative;
 	height:100%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 980px;}	
+	width: 980px;}
 	
 #resultscontainer {
 	position: relative;
@@ -93,40 +93,40 @@ body {
 #top1 {
 	position: absolute;
 	width: 365px;
-	padding: 15px 5px 0px 5px;
-	border: 0px solid purple;}
+	padding: 15px 5px 0 5px;
+	border: 0 solid purple;}
 
 #top2 {
 	position: absolute;
 	left: 365px;
 	height: 100%;
 	width: 189px;
-	padding: 15px 5px 0px 5px;
-	border: 0px solid purple;}
+	padding: 15px 5px 0 5px;
+	border: 0 solid purple;}
 	
 #top3 {
 	position: absolute;
 	left: 554px;
 	height: 100%;
 	width: 142px;
-	padding: 15px 5px 0px 5px;
-	border: 0px solid purple;}
+	padding: 15px 5px 0 5px;
+	border: 0 solid purple;}
 
 #top4 {
 	position: absolute;
 	left: 696px;
 	height: 100%;
 	width: 142px;
-	padding: 15px 5px 0px 5px;
-	border: 0px solid purple;}
+	padding: 15px 5px 0 5px;
+	border: 0 solid purple;}
 
 #top5 {
 	position: absolute;
 	left: 838px;
 	height: 100%;
 	width: 142px;
-	padding: 15px 5px 0px 5px;
-	border: 0px solid purple;}
+	padding: 15px 5px 0 5px;
+	border: 0 solid purple;}
 	
 #bottom1 {
 	position: relative;
@@ -165,10 +165,10 @@ body {
     -webkit-box-shadow: 0 0 5px 1px #666666;
     box-shadow:         0 0 5px 1px #666666;}
 	
-.searchfilterdiv:last-child {margin-bottom: 0px;}	
+.searchfilterdiv:last-child {margin-bottom: 0;}
 
 .boxcontainer {
-	border: 0px solid purple;}	
+	border: 0 solid purple;}
 	
 #top2 .boxcontainer {
 	position: absolute;
@@ -176,7 +176,7 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}	
+	border: 0 solid purple;}
 
 #top3 .boxcontainer {
 	position: absolute;
@@ -184,7 +184,7 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}
+	border: 0 solid purple;}
 
 #top4 .boxcontainer {
 	position: absolute;
@@ -192,7 +192,7 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}
+	border: 0 solid purple;}
 	
 #top5 .boxcontainer {
 	position: absolute;
@@ -200,7 +200,7 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}	
+	border: 0 solid purple;}
 
 #bottom1 .boxcontainer {
 	position: absolute;
@@ -208,7 +208,7 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}	
+	border: 0 solid purple;}
 
 #bottom2 .boxcontainer {
 	position: absolute;
@@ -216,7 +216,7 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}	
+	border: 0 solid purple;}
 
 #bottom3 .boxcontainer {
 	position: absolute;
@@ -224,7 +224,7 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}	
+	border: 0 solid purple;}
 
 #bottom4 .boxcontainer {
 	position: absolute;
@@ -232,15 +232,15 @@ body {
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	border: 0px solid purple;}	
+	border: 0 solid purple;}
 
 #setscrolldiv {
 	position: absolute;
 	top: 23px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	padding: 0px 2px 2px 2px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 2px 2px 2px;
 	overflow: auto;
 	background-color: #FFFFFF;
 	border: 1px solid #777;}
@@ -248,10 +248,10 @@ body {
 #typescrolldiv {
 	position: absolute;
 	top: 23px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	padding: 0px 2px 2px 2px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 2px 2px 2px;
 	overflow: auto;
 	background-color: #FFFFFF;
 	border: 1px solid #777;
@@ -260,10 +260,10 @@ body {
 #subtypescrolldiv {
 	position: absolute;
 	top: 23px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	padding: 0px 2px 2px 2px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 2px 2px 2px;
 	overflow: auto;
 	background-color: #FFFFFF;
 	border: 1px solid #777;}	
@@ -271,10 +271,10 @@ body {
 #abilityscrolldiv {
 	position: absolute;
 	top: 23px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	padding: 0px 2px 2px 2px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 2px 2px 2px;
 	overflow: auto;
 	background-color: #FFFFFF;
 	border: 1px solid #777;}
@@ -374,7 +374,7 @@ input[type='button'] {
 	-webkit-box-shadow: inset 1px 1px 1px rgba(255,255,255,.5),inset -1px -1px 1px rgba(0,0,0,.3);
 	-moz-box-shadow: inset 1px 1px 1px rgba(255,255,255,.5),inset -1px -1px 1px rgba(0,0,0,.3);
 	color: #fff;
-	text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+	text-shadow: 1px 1px 0 rgba(0,0,0,.5);
 	padding: 3px;
 	cursor: pointer;}
 
@@ -455,7 +455,7 @@ input[type='button'] {
 /*====================================================== End   || FORM Styles */
 
 /*====================================================== Begin || TABLE Styles */
-td {border: 0px solid purple;;}
+td {border: 0 solid purple;;}
 
 #top1 div:nth-child(3) table tr td:nth-child(n+2):nth-child(-n+6) input[type='checkbox'] {position: relative; top: 4px;}
 
