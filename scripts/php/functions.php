@@ -1,7 +1,7 @@
 <?php
 
 	//Echo card Image by theimage($info);
-	function theimage($info){echo '<img src="../../images/card../../images/',$info['ID'],'.jpg" id="cardimage" alt="Card Image" onclick="lightbox();" onError="this.src=\'../../images/card../../images/back.jpg\';" />';}
+	function theimage($info){echo '<img src="../../images/cardimages/',$info['ID'],'.jpg" id="cardimage" alt="Card Image" onclick="lightbox();" onError="this.src=\'../../images/cardimages/back.jpg\';" />';}
 
 	//Echo card ID by theid($info);
 	function theid($info){echo ($info['ID']);}
